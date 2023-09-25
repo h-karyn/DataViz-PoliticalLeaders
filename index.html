@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Political Leaders</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO="/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Political Leaders</h1>
+
+Filter Countries:
+<select id="country-selector">
+    <option value="oecd">OECD</option>
+    <option value="eu27">EU27</option>
+    <option value="brics">BRICS</option>
+    <option value="gseven">G7</option>
+    <option value="gtwenty">G20 (without EU)</option>
+</select>
+
+<div id="tooltip"></div>
+
+
+<div style="display: flex; flex-direction: column;">
+
+    <svg id="lexis-chart" style="margin-bottom: 15px;"></svg>
+
+    <div style="display: flex;">
+        <svg id="bar-chart" style="margin-right: 15px;"></svg>
+        <svg id="scatter-plot"></svg>
+    </div>
+    <br>
+    <br/>
+</div>
+
+
+
+<script src="js/d3.v6.min.js"></script>
+<script src="js/lexisChart.js"></script>
+<script src="js/barChart.js"></script>
+<script src="js/scatterPlot.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

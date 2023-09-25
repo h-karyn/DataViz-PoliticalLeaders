@@ -1,0 +1,32 @@
+
+.tick line {
+    stroke: #ddd;
+}
+
+/* give an outline to the svg components */
+svg {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+/* set the font size of axis-title */
+.axis-label {
+    font-size: 14px;
+}
+
+/* set the margin bottom of country-selector */
+#country-selector {
+    margin-bottom: 15px;
+}
+
+/* Tooltip (from p1) */
+#tooltip {
+    position: absolute;
+    display: none;
+    background: #fff;
+    box-shadow: 3px 3px 3px 0px rgb(92 92 92 / 0.5);
+    border: 1px solid #ddd;
+    font-size: 11px;
+    padding: 8px;
+    color: #333;
+}
