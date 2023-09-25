@@ -1,16 +1,7 @@
-# P2: Visualizing Political Leaders
+# Visualizing Political Leaders
+This interactive visualization is consisted of three views, 1) a lexis chart showing the age, start year and end year of their appointment; 2) A scatter plot showing teh age and GDP per capital of a contry; 3) the histogram of the count of leaders by gender. 
+The three viewed are connected: a click on the arrow on the Lexis chart will highlight itself as well as the corresponding leader in the scatter plot; and a click on the scatter plot would have the same kind of effect. The histogram serves as a global filter, a click on which will allow users to examine the leaders by gender. 
 
-Reference: 
 
-- d3-linked-charts-basic-barchart.js from d3 examples
-  - It is used to create the bar chart 
-- https://stackoverflow.com/questions/18330344/how-to-add-border-outline-stroke-to-svg-elements-in-css
-  - Used to add border to the charts
-- https://github.com/d3/d3-dispatch
-  - How to use multiple dispatches
-- d3 examples: stacked-area-chart
-  - How use the glocal dropdown menu as the filter 
-- https://stackoverflow.com/questions/44978574/d3-js-passing-in-multiple-functions-on-hover
-  - learned how have multiple hover effects on the same chart
-- https://piazza.com/class/lco9akoxugd57g/post/308
-  - Round the numbers in the tooltip
+<img width="933" alt="Screenshot 2023-09-25 at 10 40 10 AM" src="https://github.com/h-karyn/DataViz-PoliticalLeaders/assets/63256192/f744f527-3752-4411-b6f2-e6e2ab9aa693">
+
